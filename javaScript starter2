@@ -1,0 +1,185 @@
+"use strict";
+let hasDriversLicnce = false;
+const passTest = true;
+if (passTest) hasDriversLicnce = true;
+console.log(hasDriversLicnce);
+///funtion////////////
+function loger() {
+  console.log(`i love haking the mobile codes and decodes it`);
+}
+calling /invoking /runing
+loger();
+loger();
+loger();
+function prameters///
+function furitProcess(apple, orange) {
+  const juice = `this juice is made with ${apple} and ${orange} you have to drink it boss`;
+  return juice;
+}
+console.log(furitProcess(6, 5));
+console.log(furitProcess);
+furitProcess(5, 3);
+
+function is like a veriable but it can contains many values or lines of codes
+it is the basic block of the real world [programing];
+
+function glassesMaking(frame, lens) {
+  const polarizer = `there are ${frame} and ${lens} that we can make`;
+  return polarizer;
+}
+console.log(glassesMaking(3, 5));
+function grage(bughati, benz) {
+  const newCar= `these are some ${benz} and ${bughati}`
+  return newCar;
+}
+console.log(grage(1, 3));
+function multiply(a ,b) {
+    return a*b;
+
+}
+console.log(multiply(23 ,45))
+
+////////// function declaration and expration////////
+function calcAge1(birthYear) {
+  return 2023 - birthYear;
+}
+console.log(calcAge1(2004));
+///////function Expreation/////////////
+const calcAge2 = function (birthYear) {
+  return 2023 - birthYear;
+};
+console.log(calcAge2(2004))
+arrow function ////
+const calcAge3 = birthyear=>2024 - birthyear;
+const age3= calcAge3(2004);
+console.log ( age3);
+practice
+const calcAge4= birthYear => 2024 - birthYear;
+const age4 = calcAge4(1956);
+console.log(age4);
+let students = [
+  {
+    sName: "Alice",
+    score: 90,
+  },
+  {l
+    sName: "Billy",
+    score: 20,
+  },
+  {
+    sName: "Bob",
+    score: 50,
+  },
+  {
+    sName: "charli",
+    score: 58,
+  },
+  {
+    sName: "tome",
+    score: 78,
+  },
+];
+
+let topper = students
+.filter(student=> student.score >50)
+.map(student =>student.sName)
+console.log(topper)
+fucnction callling
+function cutPieces(furits) {
+  return furits * 3;
+}
+function furitProcess(apple, orange) {
+  const applePieces = cutPieces(apple);
+  const orangePieces = cutPieces(orange);
+  const juice = `juice with  ${applePieces} of apple  and ${orangePieces}  pieces of orange `;
+  return juice
+}
+console.log(furitProcess(3, 4));
+function nubmberOfCars(cars) {
+  return cars;
+}
+function carParking(trucks, vans) {
+  const noTrucks = nubmberOfCars(trucks);
+  const noVans = nubmberOfCars(vans);
+  const totalParking = `there are ${noTrucks} trucks and ${noVans} vans in the parking area.`;
+  return totalParking;
+}
+console.log(carParking(3, 10));
+function weddingRoom (strength){
+  return strength +4;
+}
+function totalDishisNeed(women , men){
+  const forMen= weddingRoom(men)
+  const forWomen= weddingRoom(women)
+  const dishes = `we need ${forMen} dishes for men and ${forWomen} dishes for women`;
+ return dishes;
+}
+console.log(totalDishisNeed(20,40));
+Overview of functions
+ function foo(){
+    console.log(bar);
+    var bar = 2;
+
+ }
+ foo()
+
+undefined;
+function calcAverage( score1 ,score2,score3){
+   return score1+score2+score3/3;
+}
+function score (){
+   const 
+}
+const calcAverage1 = (s11,s22,s33)=>(s11+s22+s33)/3;
+const s11= 23
+const s22= 45
+const s33= 71
+ 
+
+const average1 = calcAverage1(s11,s22,s33)
+
+
+ console.log(average1)
+
+const calcAverage2 = (s1,s2,s3)=>(s1+s2+s3)/3;
+const s1= 23
+const s2= 2
+const s3= 714
+const average2 = calcAverage2(s1,s2,s3)
+console.log(average2);
+
+
+ if (calcAverage1>calcAverage2) {
+   console.log`this is your output ${average1}`
+   
+ } else {
+   console.log`this is not your output ${average2}`
+   
+ }
+test 1;
+const calcAverage=(a,b,c)=>(a+b+c)/3;
+// console.log(calcAverage(23,44,71))
+
+const scoreKualas=calcAverage(23,44,71);
+const scoreDolphins=calcAverage(65,54,49);
+if (scoreDolphins>scoreKualas) {
+   console.log(`the score of team dolphins is high`)
+} else {
+   console.log(`the score of team kualas is low `)
+}
+Arrays
+const ali= 12;
+const junaid =10;
+const jack =23;
+the upper way is not correct way to store for this we use arrys;
+ const friends =['jack','Reacher','justin']
+ console.log(friends)
+ console.log(friends[0]);
+ friends[0]='David';
+ console.log(friends) 
+ console.log(friends[friends.length-1])
+ const years = new Array (1990,2000,2024)
+ years[2]=1000;
+ console.log(years);
+ 
+ 
