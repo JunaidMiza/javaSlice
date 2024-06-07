@@ -1,0 +1,103 @@
+let msg='hello guys'
+if (msg==="hello guys")
+console.log("hi this is junaid mirza")
+
+console.log(10+3-34+48)
+console.log("junaid Aly");
+let junaid="this";
+if(junaid==="this"){
+    alert("this is junaid Aly")
+}
+const firstName="junaid Aly";
+console.log(firstName);
+let secondname="junaid mirza"
+console.log(secondname);
+name is keyword in js so kindly do not use it
+so it will through some errors in the code.
+let name = "who is this "
+console.log(name)
+there are two special characters in js which we can use in variable names
+these are _underScore and $dollar sign;
+name always more discriptive.
+assignment
+let country= "Pakistan";
+console.log(country);
+let population= "39.147 million";
+console.log(population);
+let continent="Asia";
+console.log(continent);
+we always have to use const to declare variable
+const firstName= "junaid";
+console.log(firstName);
+firstName="this is junaid"//this will through an error in the code because const will not rechanged;
+Basic ooperators;
+
+const now = 2024;
+const ageJunaid = 2004 - now;
+const ageAly = 2000 - now;
+console.log(ageJunaid * 2, ageAly / 2);
+console.log(2 ** 3);
+const firstName = "junaid";
+const lastName = "Aly";
+console.log(firstName, lastName);
+
+const a = 20 - 10;
+console.log(a);
+coding challenge 1\
+Data 1;
+
+let johnsMass = 92;
+let johnsHight = 1.95;
+let marksMass = 78;
+let marksHight = 1.69;
+const bmiJohns = johnsMass / johnsHight ** 2;
+const bmiMarks = marksMass / marksHight ** 2;
+console.log(bmiJohns, bmiMarks);
+let max = bmiJohns > bmiMarks
+    ? console.log(`johns has greater BMI then marks`)
+    : console.log(`marks has greater BMI then marks`);
+Data 2;
+let johnsMass = 85;
+let johnsHight = 1.76;
+let marksMass = 95;
+let marksHight = 1.88;
+const bmiJohns = johnsMass / johnsHight ** 2;
+const bmiMarks = marksMass / marksHight ** 2;
+console.log(bmiJohns, bmiMarks);
+let max =
+  bmiJohns > bmiMarks
+    ? console.log(`johns has greater BMI then marks`)
+    : console.log(`marks has greater BMI then marks`);
+else if statements
+var ageJunaid = 29;
+var ageAli = 22;
+var bothAges = ageJunaid - ageAli;
+var young = `you are young`;
+var old = ` you are older then me`;
+if (bothAges <= 10) {
+  console.log(young);
+}
+ else if(bothAges>=10) {
+  console.log(old)
+};
+else{
+  console.log(you are good  )
+};
+lecture no 4
+const favorite = prompt(`this is what `);
+console.log(typeof favorite);
+i;
+
+const hasDriverLicence = true;
+const hasGoodVision = false;
+const clearCheck = true;
+console.log(hasDriverLicence && clearCheck);
+console.log(hasDriverLicence || (hasGoodVision && clearCheck));
+hasDriverLicence && hasGoodVision && clearCheck
+  ? console.log(`you are able to ride `)
+  : console.log(`you are not allowed sorry sir`);
+`use strict`;
+let hasDriverLicence = false;
+const passTest = true;
+if (passTest) hasDriverLicence = true;
+if (hasDriverLicence) console.log("i have to drive");
